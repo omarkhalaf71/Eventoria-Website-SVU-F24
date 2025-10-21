@@ -1,0 +1,105 @@
+ /* ==== HERO SECTION ==== */
+      .event-hero {
+        position: relative;
+        height: 60vh;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        display: flex;
+        align-items: flex-end;
+        padding: 3rem;
+        background-image: url("../assets/img/fastuval.jpg");
+      }
+      .event-hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.8)
+        );
+      }
+      .event-hero-content {
+        position: relative;
+        z-index: 2;
+      }
+      .event-hero h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+
+      /* ==== EVENT DETAILS ==== */
+      .event-details {
+        padding: 3rem 0;
+      }
+      .event-details p {
+        line-height: 1.8;
+        color: #444;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+      }
+      .gallery img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+
+      /* ==== ACTION BUTTONS ==== */
+      .event-actions {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .event-actions .btn {
+        border-radius: 30px;
+        padding: 0.6rem 1.5rem;
+        font-weight: 600;
+      }
+
+      /* ==== MAP SECTION ==== */
+      .event-map {
+        text-align: center;
+        margin: 3rem auto;
+      }
+      .event-map h3 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      .map-container {
+        max-width: 100%;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      .map-container img {
+        width: 100%;
+        display: block;
+      }
+
+      /* ==== RELATED EVENTS ==== */
+      .related-events {
+        background-color: #f9fafc;
+        padding: 3rem 0;
+      }
+      .related-events h3 {
+        font-weight: bold;
+        margin-bottom: 2rem;
+      }
+      .related-card img {
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .related-card:hover {
+        transform: translateY(-5px);
+        transition: 0.3s;
+      }

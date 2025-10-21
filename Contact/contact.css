@@ -1,0 +1,36 @@
+
+
+      .contact-section {
+        max-width: 800px;
+        margin: 3rem auto;
+        padding: 2rem;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #0b2545;
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+
+      .form-control,
+      .btn-submit {
+        border-radius: 10px;
+      }
+
+      .btn-submit {
+        background: #0b2545 ;
+        color: #fff;
+        border: none;
+        transition: background 0.3s;
+      }
+
+      .btn-submit:hover {
+        background: #0b2545;
+      }
+
+      .alert {
+        border-radius: 10px;
+      }
